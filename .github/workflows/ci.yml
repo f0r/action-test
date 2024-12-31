@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: env
         env: 
-          NPM_TOKEN: ${{ secrets.npm_token }}
+          npm_token: ${{ secrets.npm_token }}
